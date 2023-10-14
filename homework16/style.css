@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.first-container {
+    background-color: #7fffd4;
+    width: 500px;
+    height: 200vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.second-container {
+    background-color: #ffff00;
+    width: 500px;
+    height: 200vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-container {
+    background-color: #8a2be2;
+    width: 500px;
+    height: 200vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
+
+.f-box-one, .f-box-two, .f-box-three, .f-box-four, .s-box-one, .s-box-two, .s-box-three, .s-box-four, .t-box-one, .t-box-two, .t-box-three, .t-box-four {
+    width: 100px;
+    height: 100px;
+}
+
+.f-box-one, .s-box-one, .t-box-one {
+    background-color: red;
+}
+
+.f-box-two, .s-box-two, .t-box-two {
+    background-color: green;
+}
+
+.f-box-three, .s-box-three, .t-box-three {
+    background-color: blue;
+}
+
+.f-box-four, .s-box-four, .t-box-four {
+    background-color: purple;
+}
