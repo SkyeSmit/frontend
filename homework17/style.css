@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030327;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-block {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 25%;
+}
+
+.block-first, .block-second, .block-third {
+    width: 300px;
+    height: 200px;
+    background-color: #1c1c3c;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 12px 12px;
+}
+
+span {
+    font-weight: bolder;
+}
+
+p {
+    padding: 12px 6px;
+}
+
+.first-description-block, .second-description-block, .third-description-block {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
